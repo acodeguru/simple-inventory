@@ -26,6 +26,16 @@ please execute "python manage.py runserver" to run the program
 ## Test program
 please execute "python manage.py test" to test the program
 
+## Exposed URLS Tested
+####Site links
+http://127.0.0.1:8000/inventory/
+http://127.0.0.1:8000/inventory/?name=rice
+http://127.0.0.1:8000/api
+http://127.0.0.1:8000/api/inventory/
+http://127.0.0.1:8000/api/inventory/?name=rice
+
+####Admin Links
+http://127.0.0.1:8000/admin
 
 ## Screenshots
 

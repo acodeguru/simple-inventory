@@ -1,0 +1,21 @@
+{% include "base/header.html" %}
+
+
+<body class="d-flex flex-column h-100">
+    {% include "base/navbar.html" %}
+
+
+    <main class="flex-shrink-0">
+    <div class="container">
+        <h2>    {{ page_title }}</h2>
+    <hr>
+    <br/>
+        {% block content %}
+
+        {% endblock  %}
+      </div>
+
+    </main>
+    {% include "base/footer.html" %}
+  </body>
+

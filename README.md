@@ -39,26 +39,26 @@ http://127.0.0.1:8000/admin
 
 ## Screenshots
 
-### To list all
+- ### To list all
 ![image](https://user-images.githubusercontent.com/46668862/167292810-6bc88dde-c81f-407f-b78a-a451b08f998b.png)
 
 
-### To filter specific name from the list
+- ### To filter specific name from the list
 ![image](https://user-images.githubusercontent.com/46668862/167292871-c5a2436c-bc36-42e2-9f50-f1154e1c193b.png)
 
-### To view single item (pleasse click on the name of the item from the list view)
+- ### To view single item (pleasse click on the name of the item from the list view)
 ![image](https://user-images.githubusercontent.com/46668862/167292910-2732049a-7ca2-444b-83a1-bc1de516c114.png)
 
-### API overview
+- ### API overview
 ![image](https://user-images.githubusercontent.com/46668862/167292942-16fe37f8-0822-4dd9-866e-e41c752e3792.png)
 
 
-### API inventory list
+- ### API inventory list
 ![image](https://user-images.githubusercontent.com/46668862/167292965-a3a341e2-fa32-4c47-8f20-bad5e6ad5954.png)
 
-### ADMIN view
+- ### ADMIN view
 ![image](https://user-images.githubusercontent.com/46668862/167293040-8abe8d04-5f85-40e7-9cd9-064ffa5ce371.png)
 
-## TEST output
+- ## TEST output
 ![image](https://user-images.githubusercontent.com/46668862/167294667-8e537cda-965c-4232-8e64-e7d48dca673b.png)
 

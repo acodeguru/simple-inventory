@@ -1,0 +1,26 @@
+{% extends "base/base_site.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="m-4">
+  <img src="{% static 'imgs/products/grapes.jpg' %}" class="img-fluid" width="250" height="250">
+  <dl class="row">
+      <dt class="col-sm-3">UUID</dt>
+      <dd class="col-sm-9">{{ inventory.id}}</dd>
+      <dt class="col-sm-3 text-truncate">Name</dt>
+      <dd class="col-sm-9">{{ inventory.name | title}}</dd>
+      <dt class="col-sm-3">Description</dt>
+      <dd class="col-sm-9">{{ inventory.description | capfirst}}</dd>
+      <dt class="col-sm-3">Note</dt>
+      <dd class="col-sm-9">{{ inventory.note | capfirst}}</dd>
+      <dt class="col-sm-3">Stock</dt>
+      <dd class="col-sm-9">{{ inventory.stock }}</dd>
+      <dt class="col-sm-3">Availability</dt>
+      <dd class="col-sm-9">{{ inventory.availability}}</dd>
+      <dt class="col-sm-3">Supplier</dt>
+      <dd class="col-sm-9">{{ inventory.supplier.name | title}}</dd>
+  </dl>
+</div>
+
+{% endblock  %}

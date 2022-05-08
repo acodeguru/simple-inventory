@@ -1,0 +1,29 @@
+{% extends "base/base_site.html" %}
+{% load static %}
+
+{% block content %}
+
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col"></th>
+      <th scope="col">Name</th>
+      <th scope="col">Supplier Name</th>
+      <th scope="col">Availability</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for inventory in inventories %}
+    <tr>
+      <th scope="row" class="align-middle">{{ forloop.counter }}</th>
+      <th class="align-middle"><img src="{% static 'imgs/products/grapes.jpg' %}" class="img-rounded" width="50" height="50"></th>
+      <td class="align-middle"><a class="nav-link" href="/inventory/{{inventory.id}}">{{ inventory.name | title }} </a></td>
+      <td class="align-middle">{{ inventory.supplier.name | capfirst}}</td>
+      <td class="align-middle">{{ inventory.availability }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock  %}

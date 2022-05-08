@@ -17,8 +17,8 @@ once the setup is done
 Please login to the administrator view using ( /admin )
 Then in the login screen please give below details 
 
-### Username : dell
-### Password : dell@123
+** Username : dell **
+** Password : dell@123 **
 
 ## Run program
 please execute "python manage.py runserver" to run the program

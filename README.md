@@ -49,3 +49,6 @@ please execute "python manage.py test" to test the program
 ### ADMIN view
 ![image](https://user-images.githubusercontent.com/46668862/167293040-8abe8d04-5f85-40e7-9cd9-064ffa5ce371.png)
 
+## TEST output
+![image](https://user-images.githubusercontent.com/46668862/167294667-8e537cda-965c-4232-8e64-e7d48dca673b.png)
+
